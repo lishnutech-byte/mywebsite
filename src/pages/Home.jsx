@@ -311,7 +311,7 @@ export default function Home() {
             </RevealLeft>
             <RevealRight>
               <div className="as-right">
-                <p>A tech entrepreneur with expertise in project management, system analysis, and software development. Co-Founder & CEO of Lishnu Tech — leading innovation and driving business growth across Nepal's technology landscape.</p>
+                <p>A tech entrepreneur with expertise in project management, system analysis, and software development. Co-Founder & CEO of Lishnu Tech, leading innovation and driving business growth across Nepal's technology landscape.</p>
                 <Link to="/about" className="tlink">Read full story →</Link>
               </div>
             </RevealRight>
@@ -386,7 +386,7 @@ export default function Home() {
                 <img src={lishnuLogo} alt="Lishnu Tech" style={{width:'60px', height:'60px', objectFit:'contain'}} />
                 <h2 className="sec-title">Lishnu <em>Tech</em></h2>
               </div>
-              <p className="lt-desc">Building technology solutions that drive real impact. From product development to strategic innovation — Lishnu Tech is where ideas become products.</p>
+              <p className="lt-desc">Building technology solutions that drive real impact. From product development to strategic innovation, Lishnu Tech is where ideas become products.</p>
             </div>
           </RevealUp>
           <RevealUp delay={0.2}>
@@ -417,7 +417,7 @@ export default function Home() {
             <div className="cta-block">
               <div className="cta-label">Let's Work Together</div>
               <h2>Have a project<br />in mind?</h2>
-              <p>Whether it's a startup idea, a system that needs rethinking, or a partnership — let's make something exceptional.</p>
+              <p>Whether it's a startup idea, a system that needs rethinking, or a partnership. let's make something exceptional.</p>
               <Link to="/contact" className="btn-fill btn-fill-lg">
                 <span className="btn-fill-bg" />
                 <span className="btn-fill-text">Start a Conversation</span>
