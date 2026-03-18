@@ -8,6 +8,7 @@ import photo from '../assets/photo.jpg'
 import team1 from '../assets/team1.jpg'
 import team2 from '../assets/team2.jpg'
 import team3 from '../assets/team3.jpg'
+import lishnuLogo from '../assets/lishnu-logo.png'
 
 // Reusable reveal animation hook
 function useReveal() {
@@ -382,16 +383,7 @@ export default function Home() {
             <div className="lt-header">
               <div className="sec-tag" style={{ justifyContent: 'center' }}>My Company</div>
               <div className="lt-title-row">
-                <svg className="lt-logo-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="15" y="60" width="42" height="42" rx="8" fill="url(#ltg1)" />
-                  <rect x="39" y="36" width="42" height="42" rx="8" fill="url(#ltg2)" />
-                  <rect x="63" y="12" width="42" height="42" rx="8" fill="url(#ltg3)" />
-                  <defs>
-                    <linearGradient id="ltg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#1DB090" /><stop offset="100%" stopColor="#18A070" /></linearGradient>
-                    <linearGradient id="ltg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#18A0A8" /><stop offset="100%" stopColor="#1890C0" /></linearGradient>
-                    <linearGradient id="ltg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#1890C8" /><stop offset="100%" stopColor="#1070E0" /></linearGradient>
-                  </defs>
-                </svg>
+                <img src={lishnuLogo} alt="Lishnu Tech" style={{width:'60px', height:'60px', objectFit:'contain'}} />
                 <h2 className="sec-title">Lishnu <em>Tech</em></h2>
               </div>
               <p className="lt-desc">Building technology solutions that drive real impact. From product development to strategic innovation — Lishnu Tech is where ideas become products.</p>
