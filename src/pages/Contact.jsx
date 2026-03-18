@@ -57,7 +57,7 @@ export default function Contact() {
           <div className="ct-grid">
             <RevealLeft>
               <h2 className="sec-title" style={{ marginBottom: '1.25rem' }}>Have an idea<br />or <em>project?</em></h2>
-              <p className="ct-intro">Whether you're looking to collaborate, explore a partnership, or have a conversation about technology — I'm always open to connecting.</p>
+              <p className="ct-intro">Whether you're looking to collaborate, explore a partnership, or have a conversation about technology. I'm always open to connecting.</p>
 
               <div className="ct-details">
                 {[
@@ -79,9 +79,9 @@ export default function Contact() {
 
               <div className="ct-socials">
                 {[
-                  { label: 'LinkedIn', href: '#' },
-                  { label: 'GitHub', href: '#' },
-                  { label: 'Twitter / X', href: '#' },
+                  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/nishan-timilsina/' },
+                  { label: 'Facebook', href: 'https://www.facebook.com/nissantimilsena' },
+                  { label: 'Instagram', href: 'https://www.instagram.com/iamnisant/' },
                 ].map(s => (
                   <a key={s.label} href={s.href} className="cts-link">
                     {s.label} <span>↗</span>

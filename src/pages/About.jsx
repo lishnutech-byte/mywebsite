@@ -130,7 +130,7 @@ export default function About() {
                 <div className="sec-tag">My Story</div>
                 <h2 className="sec-title">Tech entrepreneur &amp;<br /><em>strategic thinker</em></h2>
                 <div className="ab-rule" />
-                <p className="ab-lead">I'm Nishan Timilsina — a tech entrepreneur with expertise spanning project management, system analysis, and software development, based in Kathmandu, Nepal.</p>
+                <p className="ab-lead">I'm Nishan Timilsina. A tech entrepreneur with expertise spanning project management, system analysis, and software development, based in Kathmandu, Nepal.</p>
                 <p>As Co-Founder & CEO of Lishnu Tech, I lead strategic initiatives, oversee product development from concept to delivery, and build partnerships that drive lasting growth.</p>
                 <p>My career spans backend development with Python & Django, business analysis, municipal system reform, and founding a technology company. I'm most energized when turning ambitious ideas into products that make a real difference.</p>
                 <div className="ab-langs">
